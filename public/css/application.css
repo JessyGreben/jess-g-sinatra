@@ -1,0 +1,59 @@
+.container {
+	font-family: 'Roboto', sans-serif;
+	/*font-weight: 50 	0;  also font-weight 400 */
+}
+
+.header {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	/*font-family: 'Roboto', sans-serif;*/
+	/*font-weight: 500;*/
+	font-size: 300%;
+}
+
+.title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 200%;
+}
+.content {
+	font-family: 'Lora', serif;
+	font-size: 120%;
+}
+
+.page-nav  {
+	width: 100%;
+	background-color: #D75878;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #505050;
+}
+
+.page-nav li {
+	margin-right: 5%;
+	float: right;
+	font-size: 150%;
+	padding-bottom: 20px;
+	font-weight: 500;
+	display: inline-block;
+
+}
+
+.logo {
+	display: inline-block;
+	background-color: grey;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 450%;
+	margin-left: 3%;
+}
+
+.intro, .title, .header, .content, .about, .projects, .skills, .skills, .blog, .contact, .footer {
+	display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+

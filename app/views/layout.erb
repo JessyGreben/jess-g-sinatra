@@ -1,33 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- 
-    normalize.css removes cross-browser differences in defaults, e.g.,
-    differences in how form elements appear between Firefox and IE
-    See: http://necolas.github.com/normalize.css/
-  -->
   <link rel="stylesheet" href="/css/normalize.css">
-  <!--
-    application.css is where you put your styles
-  -->
   <link rel="stylesheet" href="/css/application.css">
-
+  <link href='http://fonts.googleapis.com/css?family=Lora|Roboto:500,400|Montserrat:700,400' rel='stylesheet' type='text/css'>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-  <script src="/js/application.js"></script>
 
-  <title></title>
+  <title>Jess G - Web Developer</title>
 </head>
 
 <body>
   <div class='container'>
-  <ul>
-        <li><a href="">About</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">Skills</a></li>
-        <li><a href="">Contact</a></li>
+    <div class='page-nav'>
+    <div class='logo'>
+      JG
+    </div>
+      <ul>
         <li><a href="">Blog</a></li>
-      </div>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Skills</a></li>
+        <li><a href="">Projects</a></li>
+        <li><a href="">About</a></li>
+      </ul>
+    </div>
     <%= yield %>
   </div>
+  <script src="/js/application.js"></script>
 </body>
 </html>
