@@ -1,14 +1,20 @@
 .container {
 	font-family: 'Roboto', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	line-height: 1.5em;
 	/*font-weight: 50 	0;  also font-weight 400 */
 }
 
-.header {
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
-	/*font-family: 'Roboto', sans-serif;*/
-	/*font-weight: 500;*/
+.name {
+	font-family: 'Droid Sans', sans-serif;
+	font-weight: 700;
 	font-size: 300%;
+}
+
+.header {
+	font-family: 'Droid Sans', sans-serif;
+	/*font-weight: 700;*/
+	font-size: 250%;
 }
 
 .title {
@@ -21,39 +27,103 @@
 	font-size: 120%;
 }
 
-.page-nav  {
+/*.page-nav  {
 	width: 100%;
-	background-color: #D75878;
+	background-color: #E0E0E0;
 	display: inline-block;
-}
+}*/
 
 a {
 	text-decoration: none;
-	color: #505050;
+	color: #404040;
 }
 
 .page-nav li {
 	margin-right: 5%;
 	float: right;
-	font-size: 150%;
+	/*font-size: 10%;*/
 	padding-bottom: 20px;
 	font-weight: 500;
 	display: inline-block;
-
 }
 
-.logo {
-	display: inline-block;
-	background-color: grey;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 450%;
-	margin-left: 3%;
-}
+/*.logo {*/
+	/*display: inline-block;*/
+	/*background-color: grey;*/
+	/*font-family: 'Droid Sans', sans-serif;*/
+	/*font-size: 400%;*/
+	/*margin-left: 3%;*/
+/*}*/
 
-.intro, .title, .header, .content, .about, .projects, .skills, .skills, .blog, .contact, .footer {
+.arrow, .intro, .name, .title, .header, .content, .about, .projects, .skills, .skills, .blog, .contact, .footer, .page-nav ul{
 	display: flex;
   align-items: center;
   justify-content: center;
 }
 
+.arrow {
+	/*padding-top: 40%;*/
+	text-align: center;
+	display: block;
+	margin-bottom: 0.3125em;
+}
 
+.img-me {
+	/*padding-top: 3%;*/
+	/*padding: 3%;*/
+	margin-right: 3%;
+	float: left;
+	border-radius: 100px;
+	/*width: 80%;*/
+	display: inline-block;
+	}
+
+.intro > section {
+	flex: 1;
+}
+
+.intro {
+	/*display: flex;*/
+	background-color:#6BFFE4;
+	height:100vh;
+	/*width:100;*/
+}
+
+.about {
+	background-color: ;
+	height:80vh;
+}
+
+.projects {
+	background-color:#A3FFBF;
+	height:80vh;
+}
+
+.skills {
+	height:80vh;
+	background-color: #; 
+}
+
+.blog {
+	background-color: #C4FC9F;
+	height:80vh;
+}
+
+.contact {
+	height:80vh;
+	background-color: ;
+}
+
+.footer {
+	background-color:#CBE632;
+	height:50vh;
+}
+
+.twitter {
+	background-image: url('twitter.png');
+}
+
+.technology li {
+	list-style-type: none;
+	display: inline-block;
+}
