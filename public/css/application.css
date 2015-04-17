@@ -1,8 +1,9 @@
 .container {
 	font-family: 'Roboto', sans-serif;
 	-webkit-font-smoothing: antialiased;
-	line-height: 1.5em;
-	/*font-weight: 50 	0;  also font-weight 400 */
+	/*line-height: 2em;*/
+	/*font-size: 120%;*/
+
 }
 
 .name {
@@ -22,16 +23,23 @@
 	font-weight: 400;
 	font-size: 200%;
 }
+
 .content {
 	font-family: 'Lora', serif;
 	font-size: 120%;
+	text-align: center;
 }
 
-/*.page-nav  {
-	width: 100%;
+.wrap {
+	width: 50%;
+}
+
+.page-nav  {
+	/*width: 100%;
 	background-color: #E0E0E0;
-	display: inline-block;
-}*/
+	display: inline-block;*/
+	font-size: 140%;
+}
 
 a {
 	text-decoration: none;
@@ -41,7 +49,6 @@ a {
 .page-nav li {
 	margin-right: 5%;
 	float: right;
-	/*font-size: 10%;*/
 	padding-bottom: 20px;
 	font-weight: 500;
 	display: inline-block;
@@ -55,38 +62,28 @@ a {
 	/*margin-left: 3%;*/
 /*}*/
 
-.arrow, .intro, .name, .title, .header, .content, .about, .projects, .skills, .skills, .blog, .contact, .footer, .page-nav ul{
+.arrow, .intro, .name, .title, .header, .content, .about, .projects, .skills, .skills, .blog, .contact, .footer, .page-nav ul, .more-me {
 	display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .arrow {
-	/*padding-top: 40%;*/
 	text-align: center;
 	display: block;
 	margin-bottom: 0.3125em;
 }
 
-.img-me {
-	/*padding-top: 3%;*/
-	/*padding: 3%;*/
+/*.img-me {
 	margin-right: 3%;
 	float: left;
 	border-radius: 100px;
-	/*width: 80%;*/
 	display: inline-block;
-	}
-
-.intro > section {
-	flex: 1;
-}
+}*/
 
 .intro {
-	/*display: flex;*/
 	background-color:#6BFFE4;
 	height:100vh;
-	/*width:100;*/
 }
 
 .about {
@@ -116,14 +113,35 @@ a {
 
 .footer {
 	background-color:#CBE632;
-	height:50vh;
+	height:40vh;
 }
 
 .twitter {
 	background-image: url('twitter.png');
 }
 
-.technology li {
+.technology li, .social-list li {
 	list-style-type: none;
 	display: inline-block;
+	padding: 5%;
+
 }
+
+.list-projects li {
+	margin-right: 10%;
+	margin-left: 10%;
+	list-style-type: none;
+	display: inline-block; 
+}
+
+.link-project {
+	/*padding: 2%;*/
+}
+
+.more-me {
+	padding: 2%;
+	/*font-family: 'Roboto', sans-serif;
+	font-size: 120%*/
+}
+
+
