@@ -1,65 +1,107 @@
 <div class='all'>
-<section class='intro'>	
+<section class='intro' id='home'>	
 	<div class='wrap'>
 		<p class='name'>Jessica G.</p>
 		<p class='title'>Web Developer</p>
-		<p class='content'>Bacon ipsum dolor amet pancetta venison frankfurter</p>	
+		<p class='content'>Developing web applications for healthcare, for games, and for fun.</p>	
 		<p class='arrow'> <a href="#about-me"><i class="fa fa-chevron-down fa-2x"></i></a></p>	
 	</div>
 </section>
 
-<section class='about' id='about-me'>
+<section id='about-me' class='about'>
 	<div class='wrap'>
+		<p class='me-img'><img src='me.jpeg'></p>
 		<p class='header'>About Me</p>
 		<p class='content'>Moving from healthcare to software development, I am passionate about creating beautiful and worthwhile programs that improve people's lives.</p>
-		<a class='more-me' href="#"><i class="fa fa-chevron-right"></i><span class='more-me'>more</span></a>
+		<p class='more-content'>Landjaeger ham t-bone, strip steak ball tip ham hock bacon pork loin beef kielbasa turkey shankle. Tongue beef ribs doner boudin venison sausage, sirloin cupim biltong. Beef pork loin jerky kevin picanha spare ribs flank tail. Swine cupim spare ribs, biltong turducken capicola bacon ribeye meatloaf.
+		Cupim capicola pig sirloin pork. Cupim short ribs tongue sausage. Drumstick swine ham pancetta shank sausage tongue. Tenderloin spare ribs shankle, rump chicken frankfurter sirloin fatback tri-tip ham hock andouille.</p>
+		<a class='more-me' href="#"><i class="fa fa-chevron-down"></i><span class='more-me'>more</span></a>
 	</div>
 </section>
 
-<section class='projects'>
+<section id='project' class='projects'>
 	<div class='wrap'>
 		<p class='header'>Projects</p>
-		<ul class='list-projects'>
-			<li><a class='link-project' href="#"><i class="fa fa-chevron-right"></i><span class=''>LifeTime</span></a></li>
-			<li><a class='link-project' href="#"><i class="fa fa-chevron-right"></i><span class='link-project'>ToBitch</span></a></li>
+		<ul class='link-container'>
+			<li>
+				<a class='lifetime-link ' href="#">
+					<i class="fa fa-chevron-down lifetime-down"></i>
+					LifeTime
+				</a>
+			</li>
+			<li>
+				<a class='tobitch-link' href="#">
+					<i class="fa fa-chevron-down tobitch-down"></i>
+					ToBitch
+				</a>	
+			</li>
 		</ul>
-		<!-- <p class='content'>Bacon ipsum dolor amet pancetta venison frankfurter</p> -->
+
+		<p class='lifetime-content'>
+			Landjaeger ham t-	bone, strip steak ball tip ham hock bacon pork loin beef kielbasa turkey shankle. Tongue beef ribs doner boudin venison sausage, sirloin cupim biltong. Beef pork loin jerky kevin picanha spare ribs flank tail. Swine cupim spare ribs, biltong turducken capicola bacon ribeye meatloaf.
+		</p> 
+		<p class='tobitch-content'>
+			Cupim capicola pig sirloin pork. Cupim short ribs tongue sausage. Drumstick swine ham pancetta shank sausage tongue. Tenderloin spare ribs shankle, rump chicken frankfurter sirloin fatback tri-tip ham hock andouille.
+		</p>
 	</div>
 </section>
 
-<section class='skills'> 
+<section class='skills' id='skill'> 
 	<div class='wrap'>
 		<p class='header'>Skills</p>
-		<p class='content'>Bacon ipsum dolor amet pancetta venison frankfurter</p>
-		<!-- <i class="fa fa-camera-retro"></i>  -->
+		<p class='content'>Full stack Rails development, emphasis on Javascript, TDD and Agile</p>
+		<div class='tech'>
 		<ul class='technology'>
-			<li><i class="fa fa-diamond fa-3x"></i></li>
-			<li><i class="icon-ruby-on-rails-alt fa-3x"></i></li>
-			<li><i class="icon-javascript fa-3x"></i></li>
-			<li><i class="icon-postgres fa-3x"></i></li>
+			<li><i class="fa fa-diamond fa-4x"></i></li>
+			<li><i class="icon-ruby-on-rails-alt fa-4x"></i></li>
+			<li><i class="icon-javascript fa-4x"></i></li>
+			<li><i class="icon-postgres fa-4x"></i></li>
 		</ul>
-
+</div>
 	</div>
 </section>
 
-<section class='blog' >
+<section class='blog' id='blogs'>
 	<div class='wrap'>
 		<p class='header'>Blog</p>
-		<p class='content'>Technical stuff I have learned along the way.</p>
+		<p class='content'>Things I've learned along the way.</p>
+		<a class='more-me' href="#"><i class="fa fa-chevron-down"></i><span class='more-me'>read me</span></a>
+		<!-- <p class=''>Recent posts</p> -->
+		<!-- <ul class='link-container'>
+			<li>
+				<a href="#">
+					<i class="fa fa-chevron-down"></i>
+					Test Driven Development
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa fa-chevron-down"></i>
+					Javascript and Friends
+				</a>	
+			</li>
+			<li>
+				<a href="#">
+					<i class="fa fa-chevron-down"></i>
+					Refeactoring is fun, I swear
+				</a>	
+			</li>
+		</ul> -->
+
 	</div>
 </section>
 
-<section class='contact' >
+<section class='contact' id='contacts'>
 	<div class='wrap'>
-		<p class='header'>Contact</p>
-		<p class='content'>Blah blah blah</p>
+		<p class='header'>Contact Me</p>
+		<p class='content'></p>
 		<div class="social">
 				<ul class='social-list'>
-        	<li><a href="https://www.twitter.com/JessicaGreben" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a></li>
+        	<li><a href="https://www.twitter.com/JessicaGreben" target="_blank"><i class="fa fa-twitter-square fa-4x"></i></a></li>
         
-        	<li><a href="https://www.linkedin.com/pub/jessica-grebenschikov/a8/7b0/b8a/" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a></li>
-        	<li><a href="https://github.com/jessygreben" target="_blank"><i class="fa fa-github fa-3x"></i></a></li>
-        	<li><a href="https://github.com/jessygreben" target="_blank"><i class="fa fa-envelope-square fa-3x"></i></a></li>
+        	<li><a href="https://www.linkedin.com/pub/jessica-grebenschikov/a8/7b0/b8a/" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i></a></li>
+        	<li><a href="https://github.com/jessygreben" target="_blank"><i class="fa fa-github fa-4x"></i></a></li>
+        	<li><a href="#" target="_blank"><i class="fa fa-envelope-square fa-4x"></i></a></li>
         	
         </ul>
     </div>
@@ -67,7 +109,10 @@
 </section> 
 
 <section class='footer' >
-<p>&copy; 2015 Jessica Grebenschikov</p>
+	<!-- <p><a href='#'>Back to Top</a></p> -->
+	<div>
+	<p>&copy; 2015 Jessica Grebenschikov</p>
+	</div>
 </section>
 </div>
 

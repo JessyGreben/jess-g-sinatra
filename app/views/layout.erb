@@ -15,16 +15,30 @@
 <body>
   <div class='container'>
     <div class='page-nav'>
-    <div class='logo'>
-    </div>
-      <ul>
+      <div class='mobile-nav'>
+        <a href='#' class='menu-nav'><i class='fa fa-bars'></i>Menu</a>
+      </div>
+      <div id='toggle-menu'>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#project">Projects</a></li>
+          <li><a href="#skill">Skills</a></li>
+          <li><a href="#contacts">Contact</a></li>
+          <li><a href="#blogs">Blog</a></li>
+        </ul>
+      </div>
+      <div class='nav-list'>
+      <ul >
       <!-- <img class='img-me' src='me.jpeg'> -->
-        <li><a href="">Blog</a></li>
-        <li><a href="">Contact</a></li>
-        <li><a href="">Skills</a></li>
-        <li><a href="">Projects</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about-me">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#contacts">Contact</a></li>
+        <li><a href="#blogs">Blog</a></li>
       </ul>
+      </div>
     </div>
     <%= yield %>
   </div>
