@@ -1,3 +1,17 @@
+<div class='container'>
+    <div class='page-nav'>
+			<div class='nav-list'>
+      <ul >
+        <li><a href="/">Home</a></li>
+        <!-- <li><a href="#about-me">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#skill">Skills</a></li>
+        <li><a href="#contacts">Contact</a></li>
+        <li><a href="#blogs">Blog</a></li> -->
+      </ul>
+      </div>
+     </div>
+     </div>
 <div class='blog-container'>
 	<section class='blog-content' id='blogs-content'>
 		<div class='wrap'>
@@ -13,8 +27,10 @@
 			<ul class='blog-post-list'>
 				<% @posts.each do |post| %>
 					<li>
-						<a href='#' data-post-id=<%= post.id %>><p><%= post.title %></p></a>
-						<p><%= post.date %></p>
+						<a href='#' data-post-id=<%= post.id %>>
+						<p class='post-title'><%= post.title %></p></a>
+						<p class='post-content'><%= post.date %></p>
+						<!-- <p class='post-content'><%= post.content %></p> -->
 					</li>
 				<% end %>
 			</ul>

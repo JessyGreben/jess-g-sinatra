@@ -4,7 +4,6 @@ $(document).ready(function() {
 	$('#toggle-menu').hide();
 	$('.more-content').hide();
 	$('.project-content').hide();
-	$('.blog-container').hide();
 
 	
 
