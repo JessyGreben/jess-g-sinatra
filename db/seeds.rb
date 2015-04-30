@@ -1,0 +1,46 @@
+posts = [
+		{'title' => 'State of Confusion', 'subtitle' => 'My first week at coding bootcamp', 'date' =>'November 21, 2014', 'content' => 'It\'s Sunday afternoon and my first week of Dev Bootcamp is coming to an end. I counted up the time I spent completing the assignments... twenty-eight hours. I could have easily spent double that if sleep and my 9-5 commitment did not compete. While my schedule has been fairly rigorous this first week...up at 6am to work and back home to code till I can\'t keep my eyes open...I have loved every moment. I even surprised myself one morning jumping out of bed at 4am to complete a problem I had been stumped on the night before. The overall feeling is excitement to learn more and anticipation of whats to come.
+
+		As I wrap up my first week at Dev Bootcamp, the fog of confusion is clearing up. I began the week in a mild state of panic when the curriculum was released and I realized the magnitude of the commitment I had made. The first half of the week was spent familiarizing myself with Git and GiHub, version control systems...which are exactly what they sound like...a system that controls and keep track of all the different versions of your work i.e. all the changes made to it. These VCSs also provide a place for collaboration where multiple developers can work on the same code while documenting each person\'s contributions and keeping a historical record. The difference between the Git and GitHub lies in who can access the code. Git is locally stored on your computer and only you can access it. While GitHub is online for others to view, modify, use, contribute and change...pretty much anything they want. Does this mean my code is out in the open for the whole wide world to see? Oh yes it certainly does. Its all out there to be judged, to be praised, to be used to improve the world and share with all. Pretty cool if you ask me.
+
+	Another hot topic of the week was the infamous command line. You may also hear is called "Terminal", "Bash", "shell" or "console". The fog hasn\'t entirely lifted here since I can\'t figure out the benefit of using it yet, a clear indication that I have no idea what I am doing, as any experienced programmer would proclaim its power. But what I have managed to figure out about the command line is that its a way to access the computer\'s operating system services through the use of a \'shell\', the user interface program. Now typically I would simply grab my mouse and click on the Desktop folder labeled DBC_stuff, an action that requires a mere second, but now the recommendation from my first week curriculum resonates in my mind, \'Always use the command line\'. I drop the mouse and open up the shell and proceed to type my way through the computer\'s files. I first type \'pwd\' to print working directory and see where I am. In a far away folder I get crackin\' with my trusty \'cd\' command, changing directories until I arrive at my destination. I open this folder in sublime using command \'subl .\' and continue my work. All of these steps took a solid minute. You can see here where my confusion lies as to the benefit of the command line; one-second mouse click vs one minute pecking away at the command line. While my inexperienced perspective is not favorable of the command line, I have not lost faith in its power. I do not believe the entire community of developers have been mistaken in this practice. I look forward to the day I read back at this post and laugh at my noobness'
+		}, 
+		{'title' => 'Choosin\' Bootcamps, Why Dev Bootcamp', 'subtitle' => 'If you want to go fast, go alone. If you want to go far, go together.', 'date' =>'November 22, 2014', 'content' => 'During the research process deciphering the differences among the variety of bootcamps out there, there were two main questions I struggled to find an answers for. Which language is best to learn first and will the length of the program be in depth enough to prepare me to be successful. I never found a direct answer to either of these. I came to a realization that the language you learn doesn\'t matter. The more developers I talked to, the more clear it became that I just needed to learn the principles of programming and how to think like a developer and then apply those skills to any language. Dev Bootcamp emphasizes just that.
+
+
+While coding schools do vary significantly, and I lucked out getting accepted to Dev Bootcamp, I learned that the component to make the greatest impact as to my future success is simple ...its me. These programs are incredibly intense and no one is going to hold my hand along the way. My passion, drive and commitment are one part of what will distinguish me as mediocre or as great.
+
+While I know my ultimate success pivots on the work I put in...I feel DBC is special and offers a space where I can be particularly successful. Dev Bootcamp is constantly modifying and improving their curriculum and implementing feedback from students. One of the biggests benefits to this program is Phase 0, the nine weeks of prep we get before the immersive on-campus portion. It was this that made me feel that I can become a decent developer by the end of this program. This is an environment created with a framework of extended curriculum founded upon a strong community and support to empower responsibility, communication and ownership.
+
+
+In my first week of Dev Bootcamp the culture and foundational principles are evident. The outcome of the next eighteen weeks depends on us working together and helping one another to succeed. For me this responsibility fosters passion and ownership. My first experiences peer pairing echoed this and I felt the immediate connection and bond. I had to embrace vulnerability, open up and share my weaknesses and points of confusion. It was awesome to expereince the support and guidance that was offered from my partners. I am jumping into the great unknown here, I am quitting my job with the complete faith we are going to create something magical here. Together I know we can do this.'
+		}, 
+		{'title' => 'Code Noob', 'subtitle' => 'And we aren\'t even to the hard part yet', 'date' =>'November 29, 2014', 'content' => 'Command line. Check. GitHub…check. Now onto more simple stuff. HTML and CSS. I would like to discuss a few points of confusion for the newbie…that would be moi. How about a good ol’ SAT analogy for you...Divs are to tables as classes are to ID\'s. The relationship to extrapolate from this SAT analogy is that the latter of the two have historically been over used and are now considered poor form.
+
+I don’t know much when it comes to html and css, but what I have picked is don’t use tables and don’t use IDs. I could write an entire article of this topic, but prefer to save space for other confusing points encountered this week, so I will briefly run through the ‘why’ to this. To address the use of tables…there are many reasons why not to use tables for positioning… here is a list of just a few
+
+When looking at CSS, specificity is a main reason not to use IDs tags over class tags. With IDs you start down the spiral of specificity hell. My favorite resource for an explanation of CSS specificity is here
+
+Now onto an even more confusing property, but one that I feel is important to conceptually get for aspiring web developers…the Position property. The Position property serves to precisely position an element inside the web page shifting it from the normal flow of the document. 
+
+By default, HTML properties are “static”. Static positioned elements cannot be affected by top, bottom, left, right properties. 
+
+Now just when I thought I understood positioning property, I tried to use it …and low and behold…it did not work as expected. So lets take a look at this… newb to newb. I will start from what I think is easiest to hardest. Fixed, Absolute, Relative, Inherit.
+
+First up \'Position: fixed’. This positions the element relative to the browser window….meaning that the element with fixed positioning does not scroll, but remains fixed on the screen! Don’t forget you can use the top, bottom, left, right properties to make adjustments.
+
+Moving right along. Second up, \'Position: absolute\'. This one seems easy enough…its positioned compared to its parent element. The trouble is which parent element is that exactly? 
+
+They don’t tell you this, but its actually relative to the parent position that has a position defined. If no other element has a position other than the default or static then the positioning is relative to the HTML root element which is essentially the browser window. If you want to make a certain element the parent element add the `Position: relative\' property to it. 
+
+Here are a few cool articles on fixed and absolute positioning:
+http://www.yourinspirationweb.com/en/css-tips-how-to-use-the-position-fixed-property/
+http://www.yourinspirationweb.com/en/css-tips-how-to-use-absolute-position-property/
+
+That concludes this brief attempt to demystify the Position property in CSS. Stay turned for the next properties to be examined: Disply-block and inline-block.'
+		}
+]
+
+posts.each do |p|
+	Post.create(title: p['title'], subtitle: p['subtitle'], date: p['date'], content: p['content'])
+end

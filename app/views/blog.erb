@@ -1,0 +1,36 @@
+<div class='blog-container'>
+	<section class='blog-content' id='blogs-content'>
+		<div class='wrap'>
+		<p class='name'>Blog</p>
+		<p class='title'>Things I've learned along the way</p>
+		<p class='content'>From coding bootcamp and beyond</p>	
+		<p class='arrow'> <a href="#blog-list"><i class="fa fa-chevron-down fa-2x"></i></a></p>
+		</div>
+	</section>
+
+	<section class='blog-lists' id='blog-list'>
+		<div class='wrap'>
+			<ul class='blog-post-list'>
+				<% @posts.each do |post| %>
+					<li>
+						<a href='#' data-post-id=<%= post.id %>><p><%= post.title %></p></a>
+						<p><%= post.date %></p>
+					</li>
+				<% end %>
+			</ul>
+		</div>
+	</section>
+
+	<section class='not-sure'>
+		<div class='wrap'>
+		</div>
+	</section>
+
+	<div class='recent-container'>
+
+	</div>
+
+	<div class='to-top-arrow'>
+		<a href="#blogs-content"><i class="fa fa-chevron-up fa-2x"></i></a>
+	</div>
+</div>
